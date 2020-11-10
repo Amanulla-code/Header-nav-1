@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Roboto' sans-serif;
+}
+header{
+  background-image: url('./img/Background.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+header nav{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+header nav .nav-logo img{
+  width: 70%;
+}
+header nav .nav-items a{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-right: 20px;
+  color: #222;
+  transition: .5s;
+  border-bottom: 2px solid transparent;
+}
+header nav .nav-items a:hover{
+  border-bottom: 2px solid #222;
+}
+header .mid-section{
+    width: 50%;
+    margin-left: 8%;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+header .mid-section h1{
+  font-size: 72px;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+header .mid-section p{
+  width: 46%;
+  font-size: 17px;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+header .mid-section .btn a{
+  padding: 20px 25px;
+  background: #ffe06e;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid transparent;
+  transition: .5s;
+  font-weight: 500;
+}
+header .mid-section .btn a:hover{
+  color: #222;
+  border: 3px solid #ffe06e;
+  background: transparent;
+}
+
+
+
+
+
+
